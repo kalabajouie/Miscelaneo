@@ -37,7 +37,7 @@ describe('index.html', () => {
     expect(generatedParagraphs.length).toBe(1)
 
     fireEvent.click(button)
-    generatedParagraphs = container.querySelectorAll('#pun-container p')
+    generatedParagraphs = container.querySelectorAll('#pun-container pe')
     expect(generatedParagraphs.length).toBe(2)
 
     fireEvent.click(button)
