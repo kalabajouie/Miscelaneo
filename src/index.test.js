@@ -30,7 +30,7 @@ describe('index.html', () => {
   })
 
   it('renders a new paragraph via JavaScript when the button is clicked', async () => {
-    const button = getByText(container, 'Click me for a terrible puneee')
+    const button = getByText(container, 'Click me for a terrible pun')
     
     fireEvent.click(button)
     let generatedParagraphs = container.querySelectorAll('#pun-container p')
